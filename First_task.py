@@ -15,7 +15,6 @@ with open(path,'r',encoding = 'utf-8') as f:
              clear_list.append(item)
     final_list = ' '.join(clear_list)
     print(final_list)
-    print(type(final_list)) 
 with open(path, 'a', encoding= 'utf-8') as f:    
     f.write(f'{final_list}')
 
